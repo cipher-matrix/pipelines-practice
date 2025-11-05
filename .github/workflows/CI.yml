@@ -10,3 +10,12 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo Hello, world!
+  checkout:
+    name: Checkout code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking out code
+        uses: actions/checkout@v5
+  print-workflow:
+    name: Print workflow
+    runs-on: ubuntu-latest
