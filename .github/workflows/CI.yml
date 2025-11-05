@@ -16,6 +16,3 @@ jobs:
     steps:
       - name: Checking out code
         uses: actions/checkout@v5
-  print-workflow:
-    name: Print workflow
-    runs-on: ubuntu-latest
